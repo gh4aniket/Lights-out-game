@@ -16,7 +16,7 @@ The objective is to **turn off all the lights** — when every tile is off, you 
 
 This is the initial state of the board when the game loads. Lights are randomly turned on or off.
 
-![Start of Game](images/start.png)
+![Start of Game](https://github.com/gh4aniket/photos/blob/main/Screenshot%202025-06-07%20200812.png)
 
 ---
 
@@ -24,7 +24,7 @@ This is the initial state of the board when the game loads. Lights are randomly 
 
 Clicking a cell toggles that cell and its neighbors. The player must think ahead to minimize moves and reach the goal efficiently.
 
-![In-Game Action](images/playing.png)
+![In-Game Action](https://github.com/gh4aniket/photos/blob/main/Screenshot%202025-06-07%20200828.png)
 
 ---
 
@@ -32,7 +32,7 @@ Clicking a cell toggles that cell and its neighbors. The player must think ahead
 
 All lights are off — the player has solved the puzzle and wins! A congratulatory message or animation is shown.
 
-![Victory Screen](images/win.png)
+![Victory Screen](https://github.com/gh4aniket/photos/blob/main/Screenshot%202025-06-07%20201247.png)
 
 ---
 
