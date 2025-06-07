@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+# 🔦 Lights Out Game (React)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Lights Out is a puzzle game where the goal is to turn off all the lights on the board. This version is built using **React**, showcasing component-based design, state management, and simple logic implementation in an interactive UI.
 
-## Available Scripts
+## 🧠 How the Game Works
 
-In the project directory, you can run:
+The game starts with a grid of lights. Some are **on**, and some are **off** (highlighted visually). Clicking a light **toggles** its state (on/off) as well as the state of its **immediate neighbors** (up, down, left, right). 
 
-### `npm start`
+The objective is to **turn off all the lights** — when every tile is off, you win the game!
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🎮 Screenshots
 
-### `npm test`
+### 🟢 1. Game Start Screen
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This is the initial state of the board when the game loads. Lights are randomly turned on or off.
 
-### `npm run build`
+![Start of Game](images/start.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 🟡 2. During Gameplay
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Clicking a cell toggles that cell and its neighbors. The player must think ahead to minimize moves and reach the goal efficiently.
 
-### `npm run eject`
+![In-Game Action](images/playing.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 🏁 3. Winning the Game
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+All lights are off — the player has solved the puzzle and wins! A congratulatory message or animation is shown.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![Victory Screen](images/win.png)
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🚀 Features
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Built entirely with **React (Functional Components + useState)**
+- Randomized board generation on each refresh
+- Toggle logic for adjacent cells
+- Win detection logic
+- Clean, interactive UI
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🛠️ Technologies Used
 
-### Analyzing the Bundle Size
+- React (with `create-react-app`)
+- JavaScript (ES6+)
+- CSS for styling
+- Git & GitHub for version control
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
