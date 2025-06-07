@@ -30,7 +30,7 @@ Clicking a cell toggles that cell and its neighbors. The player must think ahead
 
 ### 🏁 3. Winning the Game
 
-All lights are off — the player has solved the puzzle and wins! A congratulatory message or animation is shown.
+All lights are off — the player has solved the puzzle and wins! A congratulatory animation is shown.
 
 ![Victory Screen](https://github.com/gh4aniket/photos/blob/main/Screenshot%202025-06-07%20201247.png)
 
